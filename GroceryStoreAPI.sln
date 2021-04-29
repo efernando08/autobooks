@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStoreAPI", "GroceryStoreAPI\GroceryStoreAPI.csproj", "{471ACB33-0A48-406A-8735-F9E2ECBA8817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryStoreAPI", "GroceryStoreAPI\GroceryStoreAPI.csproj", "{471ACB33-0A48-406A-8735-F9E2ECBA8817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStore.Domain", "GroceryStore.Domain\GroceryStore.Domain.csproj", "{6AC34759-5B03-43FC-A319-204988FE8795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStore.Data", "GroceryStore.Data\GroceryStore.Data.csproj", "{0E6E3D51-7C07-42BE-A3FD-4899F0A8874C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStore.Data.json", "GroceryStore.Data.json\GroceryStore.Data.json.csproj", "{FEFCF695-6FEE-4E7B-9DAB-8CBFCE4CB2D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStore.Test", "GroceryStore.Test\GroceryStore.Test.csproj", "{51B92183-65FC-4B54-9757-AB2C8901FDDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{471ACB33-0A48-406A-8735-F9E2ECBA8817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471ACB33-0A48-406A-8735-F9E2ECBA8817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{471ACB33-0A48-406A-8735-F9E2ECBA8817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC34759-5B03-43FC-A319-204988FE8795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC34759-5B03-43FC-A319-204988FE8795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC34759-5B03-43FC-A319-204988FE8795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC34759-5B03-43FC-A319-204988FE8795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6E3D51-7C07-42BE-A3FD-4899F0A8874C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6E3D51-7C07-42BE-A3FD-4899F0A8874C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6E3D51-7C07-42BE-A3FD-4899F0A8874C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6E3D51-7C07-42BE-A3FD-4899F0A8874C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFCF695-6FEE-4E7B-9DAB-8CBFCE4CB2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFCF695-6FEE-4E7B-9DAB-8CBFCE4CB2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFCF695-6FEE-4E7B-9DAB-8CBFCE4CB2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFCF695-6FEE-4E7B-9DAB-8CBFCE4CB2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B92183-65FC-4B54-9757-AB2C8901FDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B92183-65FC-4B54-9757-AB2C8901FDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B92183-65FC-4B54-9757-AB2C8901FDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B92183-65FC-4B54-9757-AB2C8901FDDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

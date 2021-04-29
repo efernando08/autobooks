@@ -3,4 +3,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GroceryStore.Data.json\GroceryStore.Data.json.csproj" />
+    <ProjectReference Include="..\GroceryStore.Data\GroceryStore.Data.csproj" />
+    <ProjectReference Include="..\GroceryStore.Domain\GroceryStore.Domain.csproj" />
+  </ItemGroup>
 </Project>
